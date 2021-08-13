@@ -14,7 +14,7 @@ void (async () => {
         assert(replyUsernameList.length > winnersNumber, "reply users > winners number");
 
         const winners = shuffle.pick(replyUsernameList, {
-            picks: winnersNumber,
+            picks: Number(winnersNumber),
         }) as string[];
 
         winners.forEach((username, index) => {
