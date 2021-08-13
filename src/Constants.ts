@@ -1,5 +1,5 @@
 const defaultPostID = "794954";
-const defaultWinnersNumber = 3;
+const defaultWinnersNumber = 5;
 const defaultNoParticipatingUsernameList = ["BlackHole1", "Leooe1"];
 
 export const v2exPostURL = `https://www.v2ex.com/t/${process.env["POST_ID"] || defaultPostID}`;

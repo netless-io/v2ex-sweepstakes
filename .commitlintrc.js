@@ -25,6 +25,7 @@ module.exports = {
             "always",
             [
                 "puppeteer",
+                "constants",
                 "ci",
                 "env",
                 "version",
